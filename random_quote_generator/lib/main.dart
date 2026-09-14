@@ -2,5 +2,5 @@ import 'package:flutter/material.dart';
 import 'package:random_quote_generator/app.dart';
 
 void main() {
-  runApp(QuoteApp());
+  runApp(const QuoteApp());
 }

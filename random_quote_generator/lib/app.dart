@@ -5,6 +5,10 @@ class QuoteApp extends StatelessWidget {
   const QuoteApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Random Quote Generator', home: QuoteScreen());
+    return MaterialApp(
+      title: 'Random Quote Generator',
+      debugShowCheckedModeBanner: false,
+      home: const QuoteScreen(),
+    );
   }
 }
