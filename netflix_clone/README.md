@@ -1,17 +1,50 @@
-# netflix_clone
+# Netflix Clone – Flutter Web
 
-A new Flutter project.
+A responsive Netflix-inspired landing page built using **Flutter Web**.
 
-## Getting Started
+This project was created as part of a Flutter development assignment.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Responsive design for desktop, tablet, and mobile
+- Netflix-inspired hero section
+- Header with logo, language selector, Sign In and Sign Up buttons
+- Email signup section
+- Trending Now section with movie cards
+- More Reasons to Join section
+- FAQ section with expandable questions
+- Responsive footer with useful links
+- No external APIs used
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Flutter Web
+- Material UI
+
+## Project Structure
+
+```text
+lib/
+├── main.dart
+├── screens/
+│   └── home_screen.dart
+└── widgets/
+    ├── app_container.dart
+    ├── header.dart
+    ├── hero_section.dart
+    ├── hero_content.dart
+    ├── email_signup.dart
+    ├── trending_section.dart
+    ├── trending_card.dart
+    ├── reason_section.dart
+    ├── reason_card.dart
+    ├── faq_section.dart
+    ├── faq_item.dart
+    ├── language_button.dart
+    └── footer.dart
+
+assets/
+└── images/
+```
