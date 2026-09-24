@@ -26,6 +26,8 @@ This project was created as part of a Flutter development assignment.
 ## Project Structure
 
 ```text
+https://github.com/Jyoti-246/flutter/tree/main/netflix_clone
+
 lib/
 ├── main.dart
 ├── screens/

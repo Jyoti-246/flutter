@@ -38,7 +38,7 @@ class EmailSignup extends StatelessWidget {
         hintText: 'Email address',
         hintStyle: const TextStyle(color: Colors.white70),
         filled: true,
-        fillColor: Colors.black.withOpacity(0.6),
+        fillColor: Colors.black.withValues(alpha: 0.6),
         contentPadding: const EdgeInsets.symmetric(
           horizontal: 18,
           vertical: 18,
